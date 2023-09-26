@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="328dp"
+        android:layout_height="586dp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="72dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="326dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="00dp"
+                android:autoText="false"
+                android:background="#D9D9D9"
+                android:gravity="center"
+                android:paddingHorizontal="50px"
+                android:text="MATERIAL DE ESTUDIO"
+                android:textColor="#03A9F4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/pregunta_contestada"
+                android:layout_width="326dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="0px"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 1"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/examen1"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 2"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/examen2"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 3"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/examen3"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 4"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/examen4"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 5"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/examen5"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 6"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/examen6"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 7"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/examen7"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 8"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/pregunta_contestada1"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="examen 9"
+                android:textColor="#FFFFFF" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="#00FFFFFF"
+        android:tint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flecha_izquierda" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.9" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.10259918" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.1" />
+
+</android.support.constraint.ConstraintLayout>
