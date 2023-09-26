@@ -1,6 +1,9 @@
 <resources>
+    <!-- TITULO PRINCIPAL -->
     <string name="app_name">AppMicrosoft</string>
 
     <!-- VARIABLES LOCALES -->
+    <string name="error_campos_nulos">Error campo nulo</string>
+
 
 </resources>
