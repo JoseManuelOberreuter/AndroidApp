@@ -58,7 +58,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/txt_numeroPregunta"
                 android:layout_width="326dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="0dp"

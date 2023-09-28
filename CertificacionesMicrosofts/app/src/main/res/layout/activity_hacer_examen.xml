@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HacerExamenActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="67dp">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="50dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/txt_hacerExamen"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:background="#D9D9D9"
+                android:gravity="center"
+                android:text="Hacer examen"
+                android:textColor="#03A9F4"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_AZ900"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="0px"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="AZ-900"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btn_IA900"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="AI-900"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btn_examen3"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="Examen 3"
+                android:textColor="#FFFFFF" />
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" />
+
+
+</android.support.constraint.ConstraintLayout>

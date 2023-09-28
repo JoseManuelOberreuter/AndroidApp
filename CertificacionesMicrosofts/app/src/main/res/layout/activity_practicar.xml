@@ -4,10 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
-
-
-
+    tools:context=".PracticarActivity">
 
     <ScrollView
         android:layout_width="match_parent"
@@ -26,7 +23,7 @@
 
 
             <TextView
-                android:id="@+id/txt_inicio"
+                android:id="@+id/txt_hacerExamen"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0dp"
@@ -34,98 +31,97 @@
                 android:layout_marginEnd="0dp"
                 android:background="#D9D9D9"
                 android:gravity="center"
-                android:text="Inicio"
+                android:text="Practicar"
                 android:textColor="#03A9F4"
                 android:textSize="24sp"
                 android:textStyle="bold" />
 
+
             <Button
-                android:id="@+id/btn_hacerExamen"
+                android:id="@+id/btn_AZ900"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0px"
                 android:layout_marginTop="20dp"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#881B92FF"
-                android:text="Hace examen"
+                android:text="AZ-900"
                 android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/btn_practicar"
+                android:id="@+id/btn_IA900"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0px"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#881B92FF"
-                android:text="practicar"
+                android:text="AI-900"
                 android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/btn_notasPreguntas"
+                android:id="@+id/btn_examen3"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0px"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#881B92FF"
-                android:text="Notas"
+                android:text="Examen 3"
                 android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/btn_materialEstudio"
+                android:id="@+id/btn_examen4"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0px"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#881B92FF"
-                android:text="Material de estudio"
+                android:text="Examen 4"
                 android:textColor="#FFFFFF" />
 
 
-
             <Button
-                android:id="@+id/btn_historialExamenes"
+                android:id="@+id/btn_examen5"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0px"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#881B92FF"
-                android:text="historial de examenes"
+                android:text="Examen 5"
                 android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/btn_estadisticas"
+                android:id="@+id/btn_examen6"
+                android:layout_width="match_parent"
+                android:layout_height="47dp"
+                android:layout_marginStart="0px"
+                android:layout_marginBottom="20dp"
+                android:backgroundTint="#881B92FF"
+                android:text="Examen 6"
+                android:textColor="#FFFFFF" />
+
+            <Button
+                android:id="@+id/btn_examen7"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0px"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#881B92FF"
-                android:text="estadisticas"
+                android:text="Examen 7"
                 android:textColor="#FFFFFF" />
 
             <Button
-                android:id="@+id/btn_perfil"
+                android:id="@+id/btn_examen8"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginStart="0px"
                 android:layout_marginBottom="20dp"
                 android:backgroundTint="#881B92FF"
-                android:text="perfil"
+                android:text="Examen 8"
                 android:textColor="#FFFFFF" />
-
-            <Button
-                android:id="@+id/btn_ayuda"
-                android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_marginStart="0px"
-                android:layout_marginBottom="20dp"
-                android:backgroundTint="#881B92FF"
-                android:text="ayuda y soporte"
-                android:textColor="#FFFFFF" />
-
-
 
 
         </LinearLayout>
     </ScrollView>
+
 
 </android.support.constraint.ConstraintLayout>

@@ -21,9 +21,9 @@ class MainActivity : AppCompatActivity() {
             if (validarCampos() == 0) {
                 val intent = Intent(this@MainActivity,HomeActivity::class.java)
                 startActivity(intent)
-
             }
         }
+
 
         btn_signup.setOnClickListener {
             val intent = Intent(this@MainActivity,RegistrarUsuarioActivity::class.java)
@@ -76,39 +76,6 @@ class MainActivity : AppCompatActivity() {
 
         //FIN DE FUNCION DE VALIDACION Y RETORNO DE CONTADOR
         return contador
-    }
-
-
-    override fun onStart() {
-        super.onStart()
-        println("onStart")
-    }
-
-    override fun onResume() {
-        super.onResume()
-        println("onResume")
-    }
-
-    override fun onPause() {
-        super.onPause()
-        println("onPause")
-    }
-
-    override fun onStop() {
-        super.onStop()
-        println("onStop")
-    }
-
-
-    override fun onRestart() {
-        super.onRestart()
-        println("onRestart")
-    }
-
-
-    override fun onDestroy() {
-        super.onDestroy()
-        println("onDestroyq")
     }
 
 

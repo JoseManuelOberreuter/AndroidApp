@@ -12,6 +12,36 @@
         android:theme="@style/Theme.AppMicrosoft"
         tools:targetApi="31">
         <activity
+            android:name=".ExamenAZ900Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PerfilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AyudaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EstadisticasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HistorialExamenesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MaterialEstudioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NotasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PracticarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InstruccionesExamenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HacerExamenActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
